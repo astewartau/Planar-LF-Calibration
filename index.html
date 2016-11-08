@@ -1,0 +1,91 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/base-min.css">
+    </head>
+
+    <body>
+        <table style="width: 800px; margin-bottom: 50px">
+            <tr>
+                <td colspan="2" align="center">
+                    <h1>Panoramic Calibration of Camera Arrays for Light Field Acquisition</h1>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <h2>Queensland University of Technology</h2><br/>
+
+                </td>
+            </tr>
+            <tr>
+                <td colspan="1" align="center">
+                    <h3>Research student: <a href="https://github.com/astewartau">Ashley Stewart</a></h2>
+                </td>
+                <td colspan="1" align="center">
+                    <h3>Supervisor: <a href="http://staff.qut.edu.au/staff/danserea/">Dr Donald Dansereau</a></h2>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <p>
+                    <b>Abstract</b><br/><br/>
+                        Light field cameras are an emerging technology with unique post-processing capabilities. Of particular interest is the potential for occlusion removal in endoscopic imaging and surgical theatre videos. In order for results to be achieved in any such application, calibration is essential. Existing calibration procedures are either conceptually complex metric procedures, or non-metric procedures inflexible to camera orientation and planarity. We present a novel and conceptually simple non-metric calibration for light field acquisition, suitable for camera arrays with constant arbitrary camera poses. We also provide a quantitative measure of calibration accuracy, and use it to demonstrate the procedure's efficacy with our Raspberry Pi camera array. Additionally, we present qualitative results by rendering light fields at varying levels of focus and occlusion, and demonstrate success in capturing and rendering light field video - an area of particular interest for our applications. Finally, we reflect on implementation challenges and lessons learned.<br/><br/>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="1" align="center">
+                    <img src="jpg/feature1.jpg"></img>
+                </td>
+                <td colspan="1" align="center">
+                    <img src="jpg/feature2.jpg"></img>
+                </td>
+            </tr>
+            <tr>
+                <td align="center">
+                    <b>Figure:</b> Image from one of our cameras
+                </td>
+                <td align="center">
+                    <b>Figure:</b> Light field focused on office chair after panoramic calibration
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="left">
+                    <p>
+                        </br>
+                        <b>Paper:</b>
+                        <a href="pdf/thesis.pdf">Honours thesis (PDF, 10.3 MB)</a>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="left">
+                    <p>
+                        </br>
+                        <b>Images</b><br/>
+                        To be added.
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="left">
+                    <p>
+                        </br>
+                        <b>Videos</b><br/>
+                        To be added.
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="left">
+                    <p>
+                        </br>
+                        <b>MATLAB Implementation</b><br/>
+                        <a href="m/BuildTransformMatrixFromCalibrationImages.m">Calibration</a><br/>
+                        <a href="m/RectifyImagesViaTransforms.m">Rectification</a><br/>
+                        <a href="m/CalculateRectifiedSetAccuracy.m">Accuracy assessment</a><br/>
+                    </p>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>
