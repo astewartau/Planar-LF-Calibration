@@ -1,0 +1,362 @@
+commit 201cb111cc7537bf53144ad56807011a3609aa39
+Author: Ashley Stewart <a.stewart.au@gmail.com>
+Date:   Thu Nov 10 11:43:26 2016 +1000
+
+    Fixed incorrect math in 'Calibration'
+
+commit 575dc274ac10ba4b0fa5fccb0b532b18d64d00bf
+Author: Ashley Stewart <a.stewart.au@gmail.com>
+Date:   Thu Nov 10 11:31:03 2016 +1000
+
+    Fixed spelling mistakes
+
+commit a0bc69faf82897a54498ceb09534c232b0bd92fd
+Author: Ashley Stewart <a.stewart.au@gmail.com>
+Date:   Thu Nov 10 09:28:10 2016 +1000
+
+    Fixed contradictory statements in
+    'Challenges' section
+
+commit 3b91c0a5c36c5ca2be3ebadad362aab8ead326e9
+Author: Ashley Stewart <a.stewart.au@gmail.com>
+Date:   Thu Nov 10 08:38:33 2016 +1000
+
+    Ammendment to acknowledgements
+
+commit ab6f1e80ece69b49adb6ec0e0e6536ee54856337
+Author: Ashley Stewart <a.stewart.au@gmail.com>
+Date:   Thu Nov 10 08:36:20 2016 +1000
+
+    Added 'Declaration'
+    Spelling fixes
+
+commit 72b20a467244d1b45cf9335c44d477c8150c269f
+Author: Ashley Stewart <a.stewart.au@gmail.com>
+Date:   Thu Nov 10 08:15:01 2016 +1000
+
+    Added 'Acknowledgements'
+
+commit 5952be326aa3c5b7bb87cc6ea05334da24b96f57
+Author: Ashley Stewart <a.stewart.au@gmail.com>
+Date:   Thu Nov 10 07:41:47 2016 +1000
+
+    Changed citation style
+    Wording and spelling fixes
+    Renamed some sections
+
+commit e67535b22861246207022dde4083433277afff2c
+Author: Ashley Stewart <a.stewart.au@gmail.com>
+Date:   Wed Nov 9 19:59:45 2016 +1000
+
+    Added figure containing Light Field 
+    video frames
+
+commit 897c17bd824cd7f226f85f6bef456e784fd917ce
+Author: Ashley Stewart <a.stewart.au@gmail.com>
+Date:   Wed Nov 9 12:22:35 2016 +1000
+
+    Removed 'panorama' term from certain areas.
+    It is not applicable.
+
+commit 772b8e19a5fb931550674175d7c01a930ceb9227
+Author: Ashley Stewart <a.stewart.au@gmail.com>
+Date:   Wed Nov 9 11:46:27 2016 +1000
+
+    Removed superfluous TODO markers
+
+commit b59f8d55998c7c5a5e5ba6ee3bbac32a16643d1d
+Author: Ashley Stewart <a.stewart.au@gmail.com>
+Date:   Wed Nov 9 11:33:07 2016 +1000
+
+    Changed 'industrial robotics' to 'robotics'
+
+commit 00650207134c747a7b37aa8a2e41e3b827d961ea
+Author: Ashley Stewart <a.stewart.au@gmail.com>
+Date:   Wed Nov 9 11:13:10 2016 +1000
+
+    Addressed suggestions from Donald
+
+commit 1920a46986e29c6e18439667521119303f4642a3
+Author: Ashley Stewart <a.stewart.au@gmail.com>
+Date:   Wed Nov 9 10:18:45 2016 +1000
+
+    Project name change
+
+commit b4ecc51e2adb74035dcc88dad6bd42601834de84
+Author: Ashley Stewart <a.stewart.au@gmail.com>
+Date:   Wed Nov 9 09:21:10 2016 +1000
+
+    Improved 'Abstract' and 'Introduction'
+    based on Donald's suggetsions.
+
+    Wording and spelling fixes.
+
+commit a92486a08cf8df8ff8472bb728d25e45311da8ae
+Author: Ashley Stewart <a.stewart.au@gmail.com>
+Date:   Wed Nov 9 06:20:26 2016 +1000
+
+    UK English fixes
+
+commit c4487ebeca6c723baa63cb97593867738467598c
+Author: Ashley Stewart <a.stewart.au@gmail.com>
+Date:   Wed Nov 9 06:17:20 2016 +1000
+
+    Capitalisation fixes
+
+commit 7d12dda31ec11fdee7b48e3e91858d44722b3645
+Author: Ashley Stewart <a.stewart.au@gmail.com>
+Date:   Tue Nov 8 19:18:32 2016 +1000
+
+    Improved 'Conclusion'
+
+commit d6625ed799e24f49c5678b756568472f91c48cf6
+Author: Ashley Stewart <a.stewart.au@gmail.com>
+Date:   Tue Nov 8 19:01:36 2016 +1000
+
+    Updated 'Challenges' to also reflect 
+    on lessons learned.
+
+    Structural changes.
+
+commit 4ba80120c7e5deb704d8757348c7606db7a783d8
+Author: Ashley Stewart <a.stewart.au@gmail.com>
+Date:   Tue Nov 8 17:26:00 2016 +1000
+
+    Improvements to 'Brief literature review'
+
+commit 426e405a51b6653987963a0038c796b841c90455
+Author: Ashley Stewart <a.stewart.au@gmail.com>
+Date:   Tue Nov 8 16:49:01 2016 +1000
+
+    Added 'Brief literature review'
+
+    Structural changes
+
+commit 4e57b4012648d374738be5cad5b36e0b87b1a3b4
+Author: Ashley Stewart <a.stewart.au@gmail.com>
+Date:   Tue Nov 8 15:33:43 2016 +1000
+
+    Updated 'Introduction' to address
+    Donald's suggestions.
+
+
+commit 955ce2c357dae8c3473ddb1aa5001ecf371bc27a
+Author: Ashley Stewart <a.stewart.au@gmail.com>
+Date:   Tue Nov 8 11:58:01 2016 +1000
+
+    Added diagram of GPIO/SD/CB items
+
+    Added more to 'Future work'
+
+commit 9fbf7ea172d3469442e416fae2588835a465d31b
+Author: Ashley Stewart <a.stewart.au@gmail.com>
+Date:   Tue Nov 8 11:44:38 2016 +1000
+
+    Added 'Future work'
+
+commit 8cc1478d1cb2d10624b441005376c3eaa365daf4
+Author: Ashley Stewart <a.stewart.au@gmail.com>
+Date:   Tue Nov 8 09:55:29 2016 +1000
+
+    Fixed table caption
+
+commit 14a38b4eeb97d572f0463d75901542eaec2492b3
+Author: Ashley Stewart <a.stewart.au@gmail.com>
+Date:   Tue Nov 8 09:52:27 2016 +1000
+
+    Added 'Challenges'
+
+commit f7fa7cc2bcd45a01d74617e27453ad15cd481640
+Author: Ashley Stewart <a.stewart.au@gmail.com>
+Date:   Tue Nov 8 07:03:51 2016 +1000
+
+    Added results table
+
+    Improved 'Conclusion'
+
+commit 31d7ce3184775d2198003baba4ed5e4bdcfaea7a
+Author: Ashley Stewart <a.stewart.au@gmail.com>
+Date:   Mon Nov 7 16:30:43 2016 +1000
+
+    Added more to 'Conclusion'
+
+    Separated 'Future work' from 'Conclusion'
+
+commit 49065e85f154eadcfa0ca97579f6e606a8363124
+Author: Ashley Stewart <a.stewart.au@gmail.com>
+Date:   Mon Nov 7 06:09:53 2016 +1000
+
+    Added 'Conclusions and Future work'
+
+commit a2ea43905972b563aa6905a0ae561b1b9bd81648
+Author: Ashley Stewart <a.stewart.au@gmail.com>
+Date:   Mon Nov 7 05:29:07 2016 +1000
+
+    Added 'Results'
+
+    Structural changes
+
+commit 713776496267eb36dd9eeb565c4c3e5b8bc79686
+Author: Ashley Stewart <a.stewart.au@gmail.com>
+Date:   Sun Nov 6 20:03:28 2016 +1000
+
+    Fixed items in 'Appendices'
+
+commit 0ec82199b5223bb4c5c30418fb4238e5c944880e
+Author: Ashley Stewart <a.stewart.au@gmail.com>
+Date:   Sun Nov 6 19:58:49 2016 +1000
+
+    Added MATLAB code to 'Appendices'
+
+commit 91b1799dea76b46aa97d2284c3f868e1a60deca4
+Author: Ashley Stewart <a.stewart.au@gmail.com>
+Date:   Sun Nov 6 18:27:28 2016 +1000
+
+    Various wording fixes
+
+commit f480fbbd7170d47a0e1b6f05a0c89a343067d5ae
+Author: Ashley Stewart <a.stewart.au@gmail.com>
+Date:   Sun Nov 6 15:34:56 2016 +1000
+
+    Significant work completed
+
+    Structural changes
+
+commit 9e653d83fd1c8e8398ce290117a978da7dcf55f6
+Author: Ashley Stewart <a.stewart.au@gmail.com>
+Date:   Sat Nov 5 15:20:12 2016 +1000
+
+    Structural changes
+
+commit 18fec11e4412bcbad2b445d22415154546e90c88
+Author: Ashley Stewart <a.stewart.au@gmail.com>
+Date:   Tue Nov 1 12:53:40 2016 +1000
+
+    Fixed figure references
+
+commit aa8bfaa969341c107eaef0bde73c348b284e87b4
+Author: Ashley Stewart <a.stewart.au@gmail.com>
+Date:   Tue Nov 1 12:24:40 2016 +1000
+
+    Improved 'Calibration Procedure'
+
+    Added figures to 'Rectification'
+
+commit 63cc670b1681ee234cbed86079629b36ba09636e
+Author: Ashley Stewart <a.stewart.au@gmail.com>
+Date:   Mon Oct 31 20:26:16 2016 +1000
+
+    Added 'Rectification' section
+
+    Other adjustments
+
+commit 67aa281d9e3ee3f234797050370dde5a6451623b
+Author: Ashley Stewart <a.stewart.au@gmail.com>
+Date:   Sun Oct 30 22:58:13 2016 +1000
+
+    Fixed inclusions of PDFs in 'Appendices'
+
+commit 1cd93b931228cf4ecbd3fc1749d1c948ae4181e1
+Author: Ashley Stewart <a.stewart.au@gmail.com>
+Date:   Sun Oct 30 18:34:29 2016 +1000
+
+    More on 'Calibration implementation'
+
+commit d3f43a891ffa5dd47d93522c3b8ae6f746d9223c
+Author: Ashley Stewart <a.stewart.au@gmail.com>
+Date:   Sun Oct 30 18:03:16 2016 +1000
+
+    More on 'Calibration implementation'
+
+commit a1fa0be46a321a1528d9e3733ed35f6c1694e44e
+Author: Ashley Stewart <a.stewart.au@gmail.com>
+Date:   Sun Oct 30 17:08:57 2016 +1000
+
+    Added 'Calibration implementation'
+
+commit d9d3d9e8a5e6fe151a927c866973cfa1ad8cae87
+Author: Ashley Stewart <a.stewart.au@gmail.com>
+Date:   Sun Oct 30 15:15:23 2016 +1000
+
+    More on 'Calibration'
+
+commit c8c0dce5da69dcf4756d65aa7da7b76037e6b297
+Author: Ashley Stewart <a.stewart.au@gmail.com>
+Date:   Sun Oct 30 13:21:50 2016 +1000
+
+    Fixed figure references
+
+commit 055f28b328b0cfe1147df3d484ecbd23b04d1d35
+Author: Ashley Stewart <a.stewart.au@gmail.com>
+Date:   Sun Oct 30 12:33:58 2016 +1000
+
+    Added more to 'Calibration'
+
+    Added tex folder
+
+commit 1e827bd2948fb67e62291a27fd084c3f71a90693
+Author: Ashley Stewart <a.stewart.au@gmail.com>
+Date:   Sat Oct 29 13:45:17 2016 +1000
+
+    Added more to 'Calibration'
+
+    Wording and spelling fixes
+    Introduced monocular co-registration
+
+commit 8dce00c5b203eaf7b087b35a128641ad1b73fb10
+Author: Ashley Stewart <a.stewart.au@gmail.com>
+Date:   Fri Oct 28 21:21:09 2016 +1000
+
+    Fixes for old files since restructure
+
+    Updated LiteratureReview PDF to work with 
+    new structure
+
+    Updated ProjectProposal to work with new 
+    structure
+
+commit 9b7b419dfd4c373e1105a2a886d60774b0b08552
+Author: Ashley Stewart <a.stewart.au@gmail.com>
+Date:   Fri Oct 28 21:16:53 2016 +1000
+
+    LaTeX/git/vscode restructure
+
+    Initial thesis bib file
+
+    Added 'Calibration' section
+
+commit 4663f106e817ef7f55877a079ada3c18172202be
+Author: Ashley Stewart <Ashley Stewart>
+Date:   Tue Oct 25 19:36:01 2016 +1000
+
+    Comment changes
+
+commit d9d480377de66cb9deaad67281f6f8b607afa4be
+Author: Ashley Stewart <Ashley Stewart>
+Date:   Tue Oct 25 15:07:44 2016 +1000
+
+    Git and settings changes
+
+commit 326e68178cfb0013ed7063fef3d6bdc824b38c27
+Author: Ashley Stewart <Ashley Stewart>
+Date:   Tue Oct 25 15:04:32 2016 +1000
+
+    Updated .gitignore
+
+commit 4c7b99c5fa134174933c763b66ca89955c8dbffc
+Author: Ashley Stewart <Ashley Stewart>
+Date:   Tue Oct 25 15:04:03 2016 +1000
+
+    LaTeX include fixes and comments
+
+commit 5a4b44768b25f5349335de04ea422af9a081d4e4
+Author: Ashley Stewart <Ashley Stewart>
+Date:   Tue Oct 25 13:57:16 2016 +1000
+
+    Added 'References' to 'Table of contents'
+
+commit 5a4b44768b25f5349335de04ea422af9a081d4e4
+Author: Ashley Stewart <Ashley Stewart>
+Date:   Tue Oct 22 11:23:53 2016 +1000
+
+    Initial commit
