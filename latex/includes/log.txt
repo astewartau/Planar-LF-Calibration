@@ -1,0 +1,179 @@
+commit 6d05af6beaefd11e15009c752d4ecb503d6fb993
+Author: Ashley Stewart <a15.stewart@qut.edu.au>
+Date:   Sun Jun 12 13:06:44 2016 +1000
+
+    Project proposal submission time
+
+commit dce44f43be48c5672c98dd2e8babf3ec106c6a69
+Author: Ashley Stewart <a15.stewart@qut.edu.au>
+Date:   Sun Jun 12 10:36:46 2016 +1000
+
+    Included PDFs in appendix
+
+commit 8ed660896a629c9492b1d411adb679097b35ced5
+Author: Ashley Stewart <a15.stewart@qut.edu.au>
+Date:   Sun Jun 12 00:12:15 2016 +1000
+
+    Edits to integrated literature review
+
+commit 05f87d946a562b37da569e56acc79dd3d23c1670
+Author: Ashley Stewart <a15.stewart@qut.edu.au>
+Date:   Sat Jun 11 23:29:23 2016 +1000
+
+    Integrated literature review summary
+
+commit 2817a1346d1be2057fafc959c52a4b6f44838de2
+Author: Ashley Stewart <a15.stewart@qut.edu.au>
+Date:   Sat Jun 11 22:09:07 2016 +1000
+
+    Proofread
+
+commit fc172b8f66a19965688160e0b23cdd69ae5ce7b6
+Author: Ashley Stewart <a15.stewart@qut.edu.au>
+Date:   Sat Jun 11 20:45:18 2016 +1000
+
+    Risks
+
+commit 2a0bacbe21c0dc37b240b1353f21d43e1d0e1f71
+Author: Ashley Stewart <a15.stewart@qut.edu.au>
+Date:   Sat Jun 11 18:24:03 2016 +1000
+
+    Draft email
+
+commit cc96d4cdb1b89ac4d9e3012a6d26e8bbc22589a7
+Author: Ashley Stewart <a15.stewart@qut.edu.au>
+Date:   Sat Jun 11 18:11:11 2016 +1000
+
+    Restructured logically
+
+commit 266e0e185953a1a4bf14a8cc277e2f3ddd6d965b
+Author: Ashley Stewart <a15.stewart@qut.edu.au>
+Date:   Sat Jun 11 17:58:15 2016 +1000
+
+    Resources required
+
+commit 0e7e3c49e4e16a50a5942163a7794bfe43d02630
+Author: Ashley Stewart <a15.stewart@qut.edu.au>
+Date:   Sat Jun 11 17:50:19 2016 +1000
+
+    Demonstration discussion and refined aims
+
+commit 3b46506f289a75079bd00634b45cb814ee085afa
+Author: Ashley Stewart <a15.stewart@qut.edu.au>
+Date:   Sat Jun 11 12:29:13 2016 +1000
+
+    Added scope and refined aim
+
+commit 295919a3d3ef7b079da5e6bc29a67ad3c1bf0abf
+Author: Ashley Stewart <a15.stewart@qut.edu.au>
+Date:   Sat Jun 11 10:15:32 2016 +1000
+
+    Methodology updates
+
+commit af683be147b796e3c70ed48e89fcad50b251184c
+Author: Ashley Stewart <a15.stewart@qut.edu.au>
+Date:   Fri Jun 10 17:07:25 2016 +1000
+
+    Initial calibration procedure
+
+commit f7d483e1a4f867b87e3fe3b6c5907a5f2dbf80d7
+Author: Ashley Stewart <a15.stewart@qut.edu.au>
+Date:   Thu Jun 9 16:51:58 2016 +1000
+
+    Restructure after meeting
+
+commit 62435dff8a5d2174c2c6d76da4b92edbc978bec0
+Author: unknown <stewara4@SEF-PA068000.qut.edu.au>
+Date:   Tue Jun 7 15:26:39 2016 +1000
+
+    Initial research questions
+
+commit b9a38b38ef2df7abbcf366fe0d026154c9c0f9f4
+Author: unknown <stewara4@SEF-PA068000.qut.edu.au>
+Date:   Tue Jun 7 14:26:17 2016 +1000
+
+    Initial scope and problems
+
+commit 60e2873d493b268f2f5d9c6ddaf3b816cef142cb
+Author: unknown <stewara4@SEF-PA068000.qut.edu.au>
+Date:   Tue Jun 7 12:00:55 2016 +1000
+
+    Started on outcomes
+
+commit 7ae19c950124b308735dfc72a0006c48e9073c4f
+Author: unknown <stewara4@SEF-PA068000.qut.edu.au>
+Date:   Fri Jun 3 13:42:38 2016 +1000
+
+    Additional spelling changes
+
+commit 486ac1c0356745db4a94d07508c347947c078ce5
+Author: unknown <stewara4@SEF-PA068000.qut.edu.au>
+Date:   Fri Jun 3 13:40:31 2016 +1000
+
+    Spelling changes
+
+commit 6d987f8e0dcb9bdb5430ce5d4de1b7d81f9b0517
+Author: unknown <stewara4@SEF-PA068000.qut.edu.au>
+Date:   Fri Jun 3 11:48:10 2016 +1000
+
+    Small edits at uni
+
+commit 732e31c57e5e716feee550bc7140a394e08fe89a
+Author: unknown <stewara4@SEF-PA068000.qut.edu.au>
+Date:   Fri Jun 3 09:53:57 2016 +1000
+
+    Removed artifacts and updated .gitignore
+
+commit 998f906558edd45ff523ca516c78b2032d6f2238
+Author: unknown <stewara4@SEF-PA068000.qut.edu.au>
+Date:   Fri Jun 3 09:51:52 2016 +1000
+
+    Removed literature review from proposal, updated Proposal structure
+
+commit 2c46d8465543db7f46631d14b7cb44bea3038949
+Author: Ashley Stewart <a15.stewart@qut.edu.au>
+Date:   Sun May 22 16:43:30 2016 +1000
+
+    Final proofread before email
+
+commit 4b14d548d5940084fc9a686842ab27fbee9b132a
+Author: Ashley Stewart <a15.stewart@qut.edu.au>
+Date:   Sun May 22 11:47:17 2016 +1000
+
+    Final edits before submission on real due date.
+
+commit ae74318ce7206fd4029546107e58af96af7af6a6
+Author: Ashley Stewart <a15.stewart@qut.edu.au>
+Date:   Fri May 6 20:25:19 2016 +1000
+
+    Hand-in time
+
+commit ad62dcfd21cfa1e10e8f785003a7f193da6d09c7
+Author: Ashley Stewart <a15.stewart@qut.edu.au>
+Date:   Thu May 5 20:38:55 2016 +1000
+
+    Added figures, completed calibration
+
+commit f776b70022727477bcc5d51f2b47d773979136a2
+Author: Ashley Stewart <a15.stewart@qut.edu.au>
+Date:   Tue May 3 18:44:05 2016 +1000
+
+    Continued on camera calibration outline. Started writing on occlusion removal.
+
+commit 059b80688763ec7785537e184b63d82d9d8ec65d
+Author: Ashley Stewart <a15.stewart@qut.edu.au>
+Date:   Tue Apr 26 20:51:52 2016 +1000
+
+    Continued on camera calibration outline
+
+commit 324d3ce01b8b3a302414aa7d01fe8dd04308f832
+Author: Ashley Stewart <a15.stewart@qut.edu.au>
+Date:   Tue Apr 26 13:13:20 2016 +1000
+
+    Added bibliography and small additions to proposal.
+
+commit c01bbbc14bc940299ed70092149ff403a8f807b0
+Author: Ashley Stewart <Ashley Stewart>
+Date:   Mon Apr 4 20:02:22 2016 +1000
+
+    Initial commit

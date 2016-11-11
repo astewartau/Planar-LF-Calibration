@@ -1,0 +1,13 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "0.1.0",
+    "command": "E:\\Downloads\\latexmk\\latexmk.bat",
+    "isShellCommand": true,
+    "args": ["${workingDir}\\main.tex", 
+    "-cd", 
+    "-pdf", 
+    "-pv"], 
+    //"--aux-directory = \"${fileDirname}\\int\""],
+    "showOutput": "always"
+}

@@ -1,0 +1,21 @@
+\documentclass[../main.tex]{subfiles}
+
+\begin{document}
+\section{Appendices} 
+\includepdf[pages=1,pagecommand=\subsection{Replacement front plate}\label{apx:frontplate},fitpaper=true,landscape=true]{includes/FrontPlate}
+
+\subsection{MATLAB Code}
+\subsubsection{BuildTransformMatrixFromCalibrationImages} \label{apx:matlab-build-transforms}
+\verbatiminput{includes/BuildTransformMatrixFromCalibrationImages.m}
+
+\subsubsection{RectifyImagesViaTransforms} \label{apx:matlab-rectify-images}
+\verbatiminput{includes/RectifyImagesViaTransforms.m}
+
+\newpage
+\subsubsection{CalculateRectifiedSetAccuracy} \label{apx:rectified-set-accuracy}
+\verbatiminput{includes/CalculateRectifiedSetAccuracy.m}
+
+\includepdf[pages=1,pagecommand=\subsection{Original Project Proposal}\label{apx:project-proposal},fitpaper=true]{includes/ProjectProposal}
+\includepdf[pages=2-23,fitpaper=true]{includes/ProjectProposal}
+
+\end{document}

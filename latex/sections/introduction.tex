@@ -1,0 +1,15 @@
+\documentclass[../main.tex]{subfiles}
+ 
+\begin{document}
+\section{Introduction} \label{sec:introduction}
+\subsection{Motivation}
+Light field cameras are an emerging technology with unique post-processing capabilities. Along with providing useful spatial information for computer vision, light field cameras can identify objects, construct artificial views, and render with increased focus in poor visibility. Their applications in computer vision are numerous, especially in robotics, navigation systems and surveillance.
+
+Light field technology in the medical field may facilitate the removal of occluders from surgical images, such as those obtained by an endoscope during arthroscopic procedures. Vision through an endoscope in such procedures is often hindered by floating debris, bubbles and equipment. The US corporations Stryker and Intuitive Surgical have both expressed interest in applying computer vision technology in these areas. In addition, light field technology could also be applied in the surgical theatre, providing useful views for training and education. This could be achieved using occlusion removal techniques with light field video.
+
+To enable any light field camera to perform well in such applications, accurate calibration is essential. A calibrated light field camera is able to capture light fields because it is aware of the relationships between each of its views. Our implementation uses a camera array, and although several calibration procedures exist for camera arrays, current procedures are either conceptually complex 'full metric calibrations', or they are inflexible to camera orientation and non-planar setups.
+
+\subsection{Outcomes}
+We present a novel and conceptually simple calibration for light field acquisition, suitable for camera arrays with arbitrary camera poses. We also provide a quantitative measure of calibration accuracy, and use it to demonstrate the procedure's efficacy with our Raspberry Pi camera array. Additionally, we present qualitative results by rendering light fields at varying levels of focus and occlusion, as well as success in capturing and rendering light field video - an area of particular interest for our applications. Finally, we reflect on implementation challenges and lessons learned.
+
+\end{document}

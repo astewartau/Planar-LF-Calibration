@@ -1,0 +1,19 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+    "editor.fontFamily": "Monaco",
+    "editor.fontSize": 20,
+    "editor.lineHeight": 38,
+    "files.exclude": { 
+        "int/": true,
+        ".gitignore": true,
+        "*.fls": true,
+        "*/*.log": true,
+        "*.bbl": true,
+        "*.blg": true,
+        "*.aux": true,
+        "*.fd*": true,
+        "*.out": true,
+        "*.toc": true,
+        "*.log": true
+    }
+}

@@ -1,0 +1,36 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [2][-]{subsection.1.1}{Motivation}{section.1}% 2
+\BOOKMARK [2][-]{subsection.1.2}{Outcomes}{section.1}% 3
+\BOOKMARK [1][-]{section.2}{Prior work}{}% 4
+\BOOKMARK [2][-]{subsection.2.1}{Camera array implementation}{section.2}% 5
+\BOOKMARK [2][-]{subsection.2.2}{Calibration literature}{section.2}% 6
+\BOOKMARK [3][-]{subsubsection.2.2.1}{Identifying the research gap}{subsection.2.2}% 7
+\BOOKMARK [3][-]{subsubsection.2.2.2}{Leading the way to planar calibration}{subsection.2.2}% 8
+\BOOKMARK [1][-]{section.3}{Adjustments to the implementation}{}% 9
+\BOOKMARK [1][-]{section.4}{Procedure}{}% 10
+\BOOKMARK [2][-]{subsection.4.1}{Calibration}{section.4}% 11
+\BOOKMARK [3][-]{subsubsection.4.1.1}{Capturing an effective calibration set}{subsection.4.1}% 12
+\BOOKMARK [3][-]{subsubsection.4.1.2}{Calculating the geometric transforms between reference plane views}{subsection.4.1}% 13
+\BOOKMARK [3][-]{subsubsection.4.1.3}{Measuring calibration accuracy}{subsection.4.1}% 14
+\BOOKMARK [2][-]{subsection.4.2}{Rectification}{section.4}% 15
+\BOOKMARK [1][-]{section.5}{Results}{}% 16
+\BOOKMARK [2][-]{subsection.5.1}{Our implementation}{section.5}% 17
+\BOOKMARK [3][-]{subsubsection.5.1.1}{Approximate overlap}{subsection.5.1}% 18
+\BOOKMARK [2][-]{subsection.5.2}{Calibration accuracy}{section.5}% 19
+\BOOKMARK [2][-]{subsection.5.3}{Light field rendering}{section.5}% 20
+\BOOKMARK [3][-]{subsubsection.5.3.1}{Synthetic aperture focusing and robustness to occlusion}{subsection.5.3}% 21
+\BOOKMARK [3][-]{subsubsection.5.3.2}{Light field video}{subsection.5.3}% 22
+\BOOKMARK [1][-]{section.6}{Challenges and lessons learned}{}% 23
+\BOOKMARK [2][-]{subsection.6.1}{Camera array power setup}{section.6}% 24
+\BOOKMARK [2][-]{subsection.6.2}{Camera array hardware setup}{section.6}% 25
+\BOOKMARK [2][-]{subsection.6.3}{Raspberry Pi software setup}{section.6}% 26
+\BOOKMARK [1][-]{section.7}{Conclusions}{}% 27
+\BOOKMARK [1][-]{section.8}{Future work}{}% 28
+\BOOKMARK [1][-]{section.9}{References}{}% 29
+\BOOKMARK [1][-]{section.10}{Appendices}{}% 30
+\BOOKMARK [2][-]{subsection.10.1}{Replacement front plate}{section.10}% 31
+\BOOKMARK [2][-]{subsection.10.2}{MATLAB Code}{section.10}% 32
+\BOOKMARK [3][-]{subsubsection.10.2.1}{BuildTransformMatrixFromCalibrationImages}{subsection.10.2}% 33
+\BOOKMARK [3][-]{subsubsection.10.2.2}{RectifyImagesViaTransforms}{subsection.10.2}% 34
+\BOOKMARK [3][-]{subsubsection.10.2.3}{CalculateRectifiedSetAccuracy}{subsection.10.2}% 35
+\BOOKMARK [2][-]{subsection.10.3}{Original Project Proposal}{section.10}% 36

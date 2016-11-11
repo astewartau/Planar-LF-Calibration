@@ -1,0 +1,147 @@
+\relax 
+\providecommand\hyper@newdestlabel[2]{}
+\providecommand\HyperFirstAtBeginDocument{\AtBeginDocument}
+\HyperFirstAtBeginDocument{\ifx\hyper@anchor\@undefined
+\global\let\oldcontentsline\contentsline
+\gdef\contentsline#1#2#3#4{\oldcontentsline{#1}{#2}{#3}}
+\global\let\oldnewlabel\newlabel
+\gdef\newlabel#1#2{\newlabelxx{#1}#2}
+\gdef\newlabelxx#1#2#3#4#5#6{\oldnewlabel{#1}{{#2}{#3}}}
+\AtEndDocument{\ifx\hyper@anchor\@undefined
+\let\contentsline\oldcontentsline
+\let\newlabel\oldnewlabel
+\fi}
+\fi}
+\global\let\hyper@last\relax 
+\gdef\HyperFirstAtBeginDocument#1{#1}
+\providecommand\HyField@AuxAddToFields[1]{}
+\providecommand\HyField@AuxAddToCoFields[2]{}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{6}{section.1}}
+\newlabel{sec:introduction}{{1}{6}{Introduction}{section.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.1}Motivation}{6}{subsection.1.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.2}Outcomes}{6}{subsection.1.2}}
+\citation{denhamRaspberry}
+\citation{vaish2004using}
+\citation{denhamRaspberry}
+\citation{denhamRaspberry}
+\@writefile{toc}{\contentsline {section}{\numberline {2}Prior work}{7}{section.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}Camera array implementation}{7}{subsection.2.1}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Light field calibrated using Vaish's plane + parallax procedure exhibiting poor focus. Adapted from \bibentry {denhamRaspberry}\relax }}{7}{figure.caption.4}}
+\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
+\newlabel{fig:sum-squeeze-calibrated}{{1}{7}{Light field calibrated using Vaish's plane + parallax procedure exhibiting poor focus. Adapted from \protect \bibentry {denhamRaspberry}\relax }{figure.caption.4}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Images taken from two horizontally adjacent cameras in our camera array. The red lines illustrate the variance in camera orientation. This variance must be accounted for if calibrated light fields are to be generated.\relax }}{8}{figure.caption.5}}
+\newlabel{fig:rotation-evidence}{{2}{8}{Images taken from two horizontally adjacent cameras in our camera array. The red lines illustrate the variance in camera orientation. This variance must be accounted for if calibrated light fields are to be generated.\relax }{figure.caption.5}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}Calibration literature}{8}{subsection.2.2}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.2.1}Identifying the research gap}{8}{subsubsection.2.2.1}}
+\citation{Xu2014}
+\citation{Zhang2000}
+\citation{dansereau2014plenoptic}
+\citation{dansereau2014plenoptic}
+\citation{dansereau2014plenoptic}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.2.2}Leading the way to planar calibration}{9}{subsubsection.2.2.2}}
+\newlabel{sec:monocular-coregistration}{{2.2.2}{9}{Leading the way to planar calibration}{subsubsection.2.2.2}{}}
+\citation{dansereau2014plenoptic}
+\citation{dansereau2014plenoptic}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces The simplified case of a planar scene and collinear cameras having only rotations about the principal axes and translations parallel to the scene. Adapted from \bibentry {dansereau2014plenoptic}\relax }}{10}{figure.caption.6}}
+\newlabel{fig:coregistration-principal-rotation}{{3}{10}{The simplified case of a planar scene and collinear cameras having only rotations about the principal axes and translations parallel to the scene. Adapted from \protect \bibentry {dansereau2014plenoptic}\relax }{figure.caption.6}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces In the case of cameras having arbitrary rotations, images can be reprojected onto a plane parallel with the $U,V$ plane, based on an estimate of the camera's orientation. Adapted from \bibentry {dansereau2014plenoptic}\relax }}{10}{figure.caption.7}}
+\newlabel{fig:coregistration-arbitrary-rotation}{{4}{10}{In the case of cameras having arbitrary rotations, images can be reprojected onto a plane parallel with the $U,V$ plane, based on an estimate of the camera's orientation. Adapted from \protect \bibentry {dansereau2014plenoptic}\relax }{figure.caption.7}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {3}Adjustments to the implementation}{11}{section.3}}
+\newlabel{sec:front-plate-replacement}{{3}{11}{Adjustments to the implementation}{section.3}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces The original camera array (left) and the camera array with the new aluminium front-plate installed (right).\relax }}{11}{figure.caption.8}}
+\newlabel{fig:picam-comparison}{{5}{11}{The original camera array (left) and the camera array with the new aluminium front-plate installed (right).\relax }{figure.caption.8}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {4}Procedure}{12}{section.4}}
+\newlabel{sec:procedure}{{4}{12}{Procedure}{section.4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Calibration}{12}{subsection.4.1}}
+\newlabel{sec:calibration-procedure}{{4.1}{12}{Calibration}{subsection.4.1}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.1.1}Capturing an effective calibration set}{12}{subsubsection.4.1.1}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Diagram of our camera array and reference plane. Two camera views are projected onto the reference plane, which is set up at distance $d$ from the camera plane. Significant overlap in the $x$ direction is illustrated as $o_x$. \relax }}{12}{figure.caption.9}}
+\newlabel{fig:overlap}{{6}{12}{Diagram of our camera array and reference plane. Two camera views are projected onto the reference plane, which is set up at distance $d$ from the camera plane. Significant overlap in the $x$ direction is illustrated as $o_x$. \relax }{figure.caption.9}{}}
+\citation{bay2006surf}
+\citation{torr2000mlesac}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.1.2}Calculating the geometric transforms between reference plane views}{13}{subsubsection.4.1.2}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.1.3}Measuring calibration accuracy}{14}{subsubsection.4.1.3}}
+\newlabel{sec:assessing-calibration}{{4.1.3}{14}{Measuring calibration accuracy}{subsubsection.4.1.3}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces Jagged panorama of a calibration set (left) and smooth panorama of a calibration set (right). The calibration set used to construct the smooth panorama will produce better results for light field applications. The jagged panorama was built using a poor calibration set which was not of a fully planar scene. Ignore any clear differences in colour across the panoramas - this is due to automatic colour balancing and gamma correction in the camera modules.\relax }}{14}{figure.caption.10}}
+\newlabel{fig:panoramas}{{7}{14}{Jagged panorama of a calibration set (left) and smooth panorama of a calibration set (right). The calibration set used to construct the smooth panorama will produce better results for light field applications. The jagged panorama was built using a poor calibration set which was not of a fully planar scene. Ignore any clear differences in colour across the panoramas - this is due to automatic colour balancing and gamma correction in the camera modules.\relax }{figure.caption.10}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Rectification}{15}{subsection.4.2}}
+\newlabel{sec:rectification}{{4.2}{15}{Rectification}{subsection.4.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces Original image (left) and rectified image (right).\relax }}{15}{figure.caption.11}}
+\newlabel{fig:rectification}{{8}{15}{Original image (left) and rectified image (right).\relax }{figure.caption.11}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces Cropped set (left) vs. uncropped set (right). In the uncropped set, each image is the size of a full panorama.\relax }}{16}{figure.caption.12}}
+\newlabel{fig:cropped-vs-uncropped}{{9}{16}{Cropped set (left) vs. uncropped set (right). In the uncropped set, each image is the size of a full panorama.\relax }{figure.caption.12}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5}Results}{17}{section.5}}
+\newlabel{sec:results}{{5}{17}{Results}{section.5}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}Our implementation}{17}{subsection.5.1}}
+\newlabel{sec:calibration-implementation}{{5.1}{17}{Our implementation}{subsection.5.1}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces A calibration pattern that achieved good results for our camera. The image is of Leonid Afremov's \emph  {Farewell to Anger}.\relax }}{17}{figure.caption.13}}
+\newlabel{fig:calibration-pattern}{{10}{17}{A calibration pattern that achieved good results for our camera. The image is of Leonid Afremov's \emph {Farewell to Anger}.\relax }{figure.caption.13}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {11}{\ignorespaces Our calibration setup. We have displayed our calibration image on a TV to ensure planarity, and aligned by visual inspection.\relax }}{18}{figure.caption.14}}
+\newlabel{fig:calibration-setup}{{11}{18}{Our calibration setup. We have displayed our calibration image on a TV to ensure planarity, and aligned by visual inspection.\relax }{figure.caption.14}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {12}{\ignorespaces Mosaic of our calibration set\relax }}{18}{figure.caption.15}}
+\newlabel{fig:calibration-set-painting}{{12}{18}{Mosaic of our calibration set\relax }{figure.caption.15}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.1.1}Approximate overlap}{19}{subsubsection.5.1.1}}
+\newlabel{eq1}{{1}{19}{Approximate overlap}{equation.5.1}{}}
+\newlabel{eq2}{{2}{19}{Approximate overlap}{equation.5.2}{}}
+\citation{vaish2004using}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2}Calibration accuracy}{20}{subsection.5.2}}
+\newlabel{sec:calibration-accuracy-result}{{5.2}{20}{Calibration accuracy}{subsection.5.2}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Average pixel inconsistencies of reference plane features detected across rectified images\relax }}{20}{table.caption.16}}
+\newlabel{tbl:pixel-inconsistencies}{{1}{20}{Average pixel inconsistencies of reference plane features detected across rectified images\relax }{table.caption.16}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.3}Light field rendering}{21}{subsection.5.3}}
+\@writefile{lof}{\contentsline {figure}{\numberline {13}{\ignorespaces Uncalibrated images rendered as a light field (left) vs. light field calibrated using our procedure (right).\relax }}{21}{figure.caption.17}}
+\newlabel{fig:uncalibrated-vs-calibrated}{{13}{21}{Uncalibrated images rendered as a light field (left) vs. light field calibrated using our procedure (right).\relax }{figure.caption.17}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.3.1}Synthetic aperture focusing and robustness to occlusion}{22}{subsubsection.5.3.1}}
+\@writefile{lof}{\contentsline {figure}{\numberline {14}{\ignorespaces Three focus levels for a non-planar scene. Focus on backdrop (left), focus on person (middle), focus on fist holding ruler (right).\relax }}{22}{figure.caption.18}}
+\newlabel{fig:focus-levels}{{14}{22}{Three focus levels for a non-planar scene. Focus on backdrop (left), focus on person (middle), focus on fist holding ruler (right).\relax }{figure.caption.18}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {15}{\ignorespaces Two focus levels of a non-planar scene with a significantly occluding hand. Focus on occluded area containing office chair and computer monitor (left) and focus on hand (right).\relax }}{22}{figure.caption.19}}
+\newlabel{fig:robustness-to-occlusion}{{15}{22}{Two focus levels of a non-planar scene with a significantly occluding hand. Focus on occluded area containing office chair and computer monitor (left) and focus on hand (right).\relax }{figure.caption.19}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {16}{\ignorespaces Rectified image set used to construct the rendered light fields in figure\nobreakspace  {}\ref  {fig:robustness-to-occlusion}. Note that in each camera view, a significant portion of the monitor or the office chair is occluded.\relax }}{23}{figure.caption.20}}
+\newlabel{fig:occluder-set}{{16}{23}{Rectified image set used to construct the rendered light fields in figure~\ref {fig:robustness-to-occlusion}. Note that in each camera view, a significant portion of the monitor or the office chair is occluded.\relax }{figure.caption.20}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.3.2}Light field video}{24}{subsubsection.5.3.2}}
+\@writefile{lof}{\contentsline {figure}{\numberline {17}{\ignorespaces Recorded video has been shown to be synchronised to less than one centisecond. The camera modules exhibit significant motion blur over smaller timespans due to the shutter speed.\relax }}{24}{figure.caption.21}}
+\newlabel{fig:video-sync}{{17}{24}{Recorded video has been shown to be synchronised to less than one centisecond. The camera modules exhibit significant motion blur over smaller timespans due to the shutter speed.\relax }{figure.caption.21}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {18}{\ignorespaces Three frames of video have been selected. The left-hand images show the frames from raw video captured by one of our camera modules. The right-hand images show the same frames, but rendered as a light field - the focus is on the stuffed toy.\relax }}{25}{figure.caption.22}}
+\newlabel{fig:video-frames}{{18}{25}{Three frames of video have been selected. The left-hand images show the frames from raw video captured by one of our camera modules. The right-hand images show the same frames, but rendered as a light field - the focus is on the stuffed toy.\relax }{figure.caption.22}{}}
+\citation{denhamRaspberry}
+\@writefile{toc}{\contentsline {section}{\numberline {6}Challenges and lessons learned}{26}{section.6}}
+\newlabel{sec:challenges}{{6}{26}{Challenges and lessons learned}{section.6}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.1}Camera array power setup}{26}{subsection.6.1}}
+\newlabel{sec:challenges-power}{{6.1}{26}{Camera array power setup}{subsection.6.1}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {19}{\ignorespaces Raspberry Pi camera array power setup. Notice the poor cable management.\relax }}{26}{figure.caption.23}}
+\newlabel{fig:cable-management}{{19}{26}{Raspberry Pi camera array power setup. Notice the poor cable management.\relax }{figure.caption.23}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.2}Camera array hardware setup}{27}{subsection.6.2}}
+\newlabel{sec:challenges-power}{{6.2}{27}{Camera array hardware setup}{subsection.6.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {20}{\ignorespaces Top-down view of the camera array enclosure with the top removed. Key areas requiring regular access are labelled. It is difficult to access these areas without deconstructing the array of Raspberry Pis.\relax }}{27}{figure.caption.24}}
+\newlabel{fig:hardware-access}{{20}{27}{Top-down view of the camera array enclosure with the top removed. Key areas requiring regular access are labelled. It is difficult to access these areas without deconstructing the array of Raspberry Pis.\relax }{figure.caption.24}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.3}Raspberry Pi software setup}{28}{subsection.6.3}}
+\citation{vaish2004using}
+\citation{vaish2004using}
+\@writefile{toc}{\contentsline {section}{\numberline {7}Conclusions}{29}{section.7}}
+\newlabel{sec:conclusions}{{7}{29}{Conclusions}{section.7}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {21}{\ignorespaces Vaish et al's synthetic aperture focusing demonstration (top) and ours (bottom). The top images were adapted from \bibentry {vaish2004using}\relax }}{29}{figure.caption.25}}
+\newlabel{fig:occlusion-robustness-comparison}{{21}{29}{Vaish et al's synthetic aperture focusing demonstration (top) and ours (bottom). The top images were adapted from \protect \bibentry {vaish2004using}\relax }{figure.caption.25}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {8}Future work}{30}{section.8}}
+\newlabel{sec:future-work}{{8}{30}{Future work}{section.8}{}}
+\bibstyle{plain}
+\bibdata{bib/thesis}
+\bibcite{bay2006surf}{1}
+\bibcite{dansereau2014plenoptic}{2}
+\bibcite{denhamRaspberry}{3}
+\bibcite{torr2000mlesac}{4}
+\bibcite{vaish2004using}{5}
+\bibcite{Xu2014}{6}
+\bibcite{Zhang2000}{7}
+\@writefile{toc}{\contentsline {section}{\numberline {9}References}{31}{section.9}}
+\@writefile{toc}{\contentsline {section}{\numberline {10}Appendices}{32}{section.10}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {10.1}Replacement front plate}{33}{subsection.10.1}}
+\newlabel{apx:frontplate}{{10.1}{33}{Replacement front plate}{subsection.10.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {10.2}MATLAB Code}{34}{subsection.10.2}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {10.2.1}BuildTransformMatrixFromCalibrationImages}{34}{subsubsection.10.2.1}}
+\newlabel{apx:matlab-build-transforms}{{10.2.1}{34}{BuildTransformMatrixFromCalibrationImages}{subsubsection.10.2.1}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {10.2.2}RectifyImagesViaTransforms}{37}{subsubsection.10.2.2}}
+\newlabel{apx:matlab-rectify-images}{{10.2.2}{37}{RectifyImagesViaTransforms}{subsubsection.10.2.2}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {10.2.3}CalculateRectifiedSetAccuracy}{39}{subsubsection.10.2.3}}
+\newlabel{apx:rectified-set-accuracy}{{10.2.3}{39}{CalculateRectifiedSetAccuracy}{subsubsection.10.2.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {10.3}Original Project Proposal}{41}{subsection.10.3}}
+\newlabel{apx:project-proposal}{{10.3}{41}{Original Project Proposal}{subsection.10.3}{}}

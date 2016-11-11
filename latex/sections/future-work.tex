@@ -1,0 +1,11 @@
+\documentclass[../main.tex]{subfiles}
+
+\begin{document}
+\section{Future work} \label{sec:future-work}
+For any future work with the Raspberry Pi camera array, we highly recommend improvements be made in the design of the device before additional light field work takes place. Specifically, the power method and/or setup should be adjusted, so that power cables are secure, relatively accessible, and less exposed. Additionally, the enclosure should be redesigned so that SD cards, camera board ribbon cables, and power cables are accessible without pulling apart the device.
+
+The camera array has successfully demonstrated effectiveness in light field applications such as synthetic aperture focusing and light field video, and is therefore fit for future work in plenoptic imaging. An area of particular interest is occlusion removal that exploits the temporal axis.
+
+The nature of the Raspberry Pi camera array also means that there may be potential for parallel processing. Perhaps using OpenCV across devices, images could be rectified before being sent to a host machine for final processing into a light field. If the current calibration procedure is still used, it too could be implemented using OpenCV and run on each Raspberry Pi. This would allow the device to self-calibrate without the need for a host machine.  
+
+\end{document}

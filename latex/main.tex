@@ -1,0 +1,91 @@
+\documentclass[a4paper,12pt]{article}
+
+% Paragraph settings
+\setlength{\parskip}{1em}
+\setlength{\parindent}{0em}
+
+% Allow subfiles for sections
+\usepackage{subfiles}
+
+% Make 'References' a section
+\usepackage[numbib,nottoc]{tocbibind}
+
+% Allow in-line referencing
+\usepackage{bibentry}
+
+% Fix clash between bibentry and hyperref
+\makeatletter\let\saved@bibitem\@bibitem\makeatother
+
+% Allow hyperlinks
+\usepackage{hyperref}
+
+% Fix clash between bibentry and hyperref
+\makeatletter\let\@bibitem\saved@bibitem\makeatother
+
+% Allow APA-style citations
+%\usepackage{apacite}
+
+% Patch apacite to work with subfiles
+\usepackage{etoolbox}
+\makeatletter\patchcmd{\nocite}{\ifx\@onlypreamble\document}{\iftrue}{}{}\makeatother
+
+% Allow URLs in references
+\usepackage{url}
+
+% Allow using \linewidth
+\usepackage{graphicx}
+\graphicspath{{images}{../images/}}
+
+% Typesetting for matrices
+\usepackage{array}
+
+% Allow float position for figures
+\usepackage{float}
+
+% Allow inclusions of PDF files
+\usepackage{pdfpages}
+
+% Allow inclusions of files verbatim
+\usepackage{verbatim}
+
+% Figures with bold labels
+\usepackage[labelfont=bf]{caption}
+
+% Math tools
+\usepackage{amsmath}
+
+\usepackage[utf8]{inputenc}
+%\usepackage[T1]{fontenc}
+
+\begin{document}
+\nobibliography*{}
+
+\subfile{sections/titlepage}
+\subfile{sections/declaration}
+\subfile{sections/abstract}
+\subfile{sections/acknowledgements}
+\newpage
+
+\tableofcontents
+\newpage
+
+\subfile{sections/introduction}
+\subfile{sections/prior-work}
+\subfile{sections/implementation-adjustments}
+\subfile{sections/procedure}
+\subfile{sections/results}
+\subfile{sections/challenges}
+
+\newpage
+\subfile{sections/conclusions}
+\subfile{sections/future-work}
+
+\newpage
+%\bibliographystyle{apacite}
+\bibliographystyle{plain}
+\bibliography{bib/thesis}
+
+\newpage
+\subfile{sections/appendices}
+
+\end{document}
