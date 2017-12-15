@@ -1,0 +1,58 @@
+
+
+Consider a mobile camera array. Ours has sixteen Raspberry Pi Camera Modules
+positioned in a 4x4 grid. 
+
+Although they appear aligned, let's inspect the images of some adjacent
+views. We can see that there is significant arbitrary rotation between
+views. Note that the principal axis on the right-hand image is up and to the
+left.
+
+If we want to construct light fields with this camera array, we'll need to align
+the images on some reference plane. We can do this by first positioning a
+calibration pattern directly in front of the camera array. The pattern should
+span its full field of view, and there should be significant overlap between
+viewpoints. We recommend patterns generated through specialised noise
+functions. To show how flexible our procedure is, we demonstrate it using a
+painting displayed on a TV, which was more convenient than printing out a large
+pattern.
+
+Here we show each of the calibration images captured by our 16
+sub-cameras. Notice the significant overlap between views. If we attempt to
+render these images as a light field without calibration, we get a very blurry
+image. Calibration aims to bring images into alignment according to a two-plane
+parametrisation, allowing us to identify corresponding light rays by in each of
+the images using pixel coordinates. This should also lead to a much clearer
+image.
+
+To bring the images into alignment, we first identify features through the
+Speeded-Up Robust Features detector, and then estimate transformations between
+images via the sample consensus algorithm - MLESAC, a variation of the more
+common RANSAC procedure.
+
+After we identify each of the transformations necessary to bring images into
+alignment, we can project them onto the calibration plane according to
+them. Here is one of the transformed images. Notice as we flip through them,
+that common features remain aligned.
+
+If we render the average of our rectified images, we get a much clearer
+result. The clarity indicates a high quality calibration. The vignette effect
+that causes dark edges is because there are less cameras capturing those
+areas.
+
+Using the same transforms that brought the calibration images into alignment, we
+can bring any scene into focus at that plane. It is also possible to adjust the
+plane of focus by shifting images to varied depths. This allows us to focus on
+any plane parallel to the calibration plane.
+
+In this next demonstration, we pan the focus of a light field still across
+planes of interest. Notice that towards the beginning, the background and office
+chair come into focus, and towards the end, the occluding hand comes into focus.
+
+Here's another similar demonstration. 
+
+We've also had success in capturing light field video. In these final
+demonstrations, we play a light field video that pans focus from background to
+foreground.
+
+

@@ -1,0 +1,146 @@
+
+
+* Related work
+** Topics
+- Noisy calibration pattern
+  - *li_multiple-camera_2013 (Li et al)*: 
+
+- Full field of view calibration image
+  - *zhou2007effect (Zhou et al)*: Showed that pose estimation for
+    monocular camera calibration is significantly improved when the
+    calibration space is designed in a full field of view.
+
+- Geometric transform recovery
+  - ???
+
+- Calibration for synthetic aperture photography
+  - ???
+
+- Panorama - alignment of points on some plane at infinity
+
+** Vaish et al.
+- Non-metric procedure
+  - Algorithm:
+    1. ...
+
+** Li et al.
+- Only use of of *noisy* calibration pattern
+- Uses RANSAC
+- Purpose?
+
+** Dansereau et al.
+- Non-metric procedure
+  - Steps
+    1. Images are taken over a regular grid of 'azimuths and elevations'
+    2. Image of a distant scene is captured to minimise parallax
+    3. Each image is transformed into registration with the central
+       image - first using a closed-form initial estimate
+       + Conventional registration techniques are used to refine the
+	 transformations (Lowe, 2004)
+       + This takes into account a total transformation
+    4. Rotational offset and degree of grid skew are estimated from
+       the calibrated per-image affine transformations
+       + Is this done by matrix decomposition?
+       + From these, a rotation (matrix is built?) is applied to every
+         image in u,v, correcting for the rotational offset and
+         bringing the u,v axes in line with the s,t axes (Dansereau
+         and Williams, 2011)
+    5. Skew is addressed through 2D per-image transformations, either
+       in s,t or u,v, and the result is that there is only a single
+       + Is this done by first doing rotation, and then estimating the
+         additional transforms necessary to register images - and this
+         is skew?
+
+
+* Algorithm
+- Number of cameras n = 16 (4x4)pp
+- Cameras C = {C_0, C_1, C_2, ..., C_n-1}
+- Images  I = {C_0, C_1, C_2, ..., C_n-1}
+- Feature points      F_p = { F_p0, F_p1, ..., F_pn-1 }
+- Feature descriptors F_d = { F_d0, F_d1, ..., F_dn-1 }
+- Matching Points M = { M_01, M_12, M_23, ..., M_n-2,M_n-1}
+- Ordered transforms Y = { Y_0, Y_1, ..., Y_n-1 }
+- Center image index k by computing limits of projective transforms on images
+- Final transforms T = inv(Y_k){Y_0->k-1} + Y_k + inv(Y_k){Y_k+1->n-1}
+
+** Steps in plain English
+
+- Identify feature matrices for all images
+  - Points and descriptors
+- Identify matching features between successive images by computing and
+  tresholding the distance between their feature vectors
+  - Matching feature vector of indices
+- Get the points associated with those matching features.
+  - Matching point vector of points
+- Estimate geometric transforms between successive point vectors
+  - Vector of transformations
+
+At this point, the transformations are relative to the first image.  This
+distorts most of the images. We can get an improved result by modifying the
+transformations such that the center of the scene is the least distorted.  This
+is accomplished by inverting the transform for the center image, and applying
+that transform to all the others.
+
+- Determine the image that is in the center
+   - Compute the output limits for each transform
+   - Compute the average limits for each transform
+   - Compute the image whose limits are closest to this
+- Calculate the center image's inverse transform
+- Apply it to all other images
+
+Finally, we have an array of transformations which bring images into focus on
+the calibration plane, accounting for rotation and translation.
+
+
+* Notes
+** Summary of calibration procedure
+First, a single image of a calibration pattern is captured by all cameras. The
+image must be of a noisy or irregular calibration pattern, which occupies the
+full field of view of all cameras and is parallel to the camera plane. There
+must be significant overlap between camera views. Features are then identified
+on all images using the Speeded Up Robust Features (SURF) algorithm followed by
+the Maximum Likelihood Estimation SAmple Consensus (MLESAC) algorithm to
+estimate geometric transformations. Once transformations between images have
+been estimated, they are used to project any image set captured by the camera
+array onto any focal plane parallel to the camera plane.
+
+** Conclusions and Future Work
+
+- Why is it useful and convenient?
+  - It is very flexible - nothing about the cameras needs to be known, so long
+    as they are approximately planar and forward-facing. You can even use
+    combinations of different cameras with varied resolutions if required since
+    our calibration also accounts for scaling.
+- We've derived a simple yet robust calibration by aligning a flat surface from
+  which we can identify geometric transformations
+- It is not limited to mobile camera arrays - it is also applicable to
+  e.g. ceiling cameras facing downwards (e.g. surgical theatre)
+- We've explored light field video in which we vary the level of focus.
+- After rectifying images, our method can be used to recover scene geometry
+  using a shape-from-focus algorithm. It could be used to track moving objects
+  behind dense occlusion (Joshi et al), etc. 
+
+* TO-DO
+ADD THE FOLLOWING:
+- After rectifying images, our method can be used to recover scene geometry
+  using a shape-from-focus algorithm. It could be used to track moving objects
+  behind dense occlusion (Joshi et al), etc.
+- Mention the clarity of the focal plane and blur in other areas in the
+  qualitative results section
+
+Vaish
+- Assuming cameras are aligned to a reference plane - explains how to estimate
+  camera positions
+- Also explains how to perform synthetic focusing
+
+Mine
+- Explains how to warp camera images so they are aligned to a reference plane
+  using a full-FOV calibration image
+- Produces better synthetic focusing results for cameras with non-uniform
+  viewpoint orientation
+- Estimating camera positions is weakened by the warping, so it is best if
+  relative camera positions are known. Ours are equally spaced.
+- If camera positions are unknown, and orientations are approximately
+  forward-facing, you can get a good initial estimate by transforming the images
+  into alignment first by translation only before applying plane + parallax.
+

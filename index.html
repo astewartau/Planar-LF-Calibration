@@ -10,34 +10,58 @@
             ga('create', 'UA-72955627-3', 'auto');
             ga('send', 'pageview');
 
-            </script>
+        </script>
+	<title>Stewart, Ashley 2017 - Light Field Camera Calibration</title>
     </head>
 
     <body>
         <table style="width: 800px; margin: 20px;">
             <tr>
                 <td colspan="2" align="center">
-                    <h1>Planar Calibration of Camera Arrays for Light Field Acquisition</h1>
+                    <h1>Using Planar Point Correspondence to Calibrate Camera Arrays for Light Field Acquisition</h1>
                 </td>
             </tr>
             <tr>
                 <td colspan="2" align="center">
-                    <h2>Queensland University of Technology</h2><br/>
+                  <h2><a href="https://www.qut.edu.au/" target="_blank">Queensland University of Technology</a></h2>
+		  <h2><a href="http://www.araa.asn.au/conferences/acra-2017/program/#s6" target="_blank">Presented at ACRA 2017</a></h2>
                 </td>
             </tr>
             <tr>
                 <td colspan="1" align="center">
-                    <h3>Researcher: <a href="https://github.com/astewartau">Ashley Stewart</a></h2>
+                    <h3>Research student: <a href="https://astewartau.github.io" target="_blank">Ashley Stewart</a></h2>
                 </td>
                 <td colspan="1" align="center">
-                    <h3>Supervisor: <a href="http://staff.qut.edu.au/staff/danserea/">Dr Donald Dansereau</a></h2>
+                    <h3>Supervisor: <a href="http://dgd.vision/" target="_blank">Dr Donald Dansereau</a></h2>
                 </td>
             </tr>
             <tr>
                 <td colspan="2">
                     <b>Abstract</b><br/>
                     <p>
-                        Light field cameras are an emerging technology with unique post-processing capabilities. Their applications in computer vision are numerous, especially in robotics, navigation systems and surveillance. Within the medical field, there is a serious potential for occlusion removal in endoscopic imaging and surgical theatre videos using light field cameras. In order for results to be achieved in any such application, calibration is essential. Existing calibration procedures are either conceptually complex metric procedures, or non-metric procedures inflexible to camera orientation and planarity. We present a novel and conceptually simple non-metric calibration for light field acquisition, suitable for camera arrays with constant yet arbitrary camera poses. We also provide a quantitative measure of calibration accuracy, and use it to demonstrate the procedure's efficacy with our Raspberry Pi camera array. Additionally, we present qualitative results by rendering light fields at varying levels of focus and occlusion, and demonstrate success in capturing and rendering light field video - an area of particular interest for our applications. Finally, we reflect on implementation challenges and lessons learned.<br/><br/>
+		      Light field cameras are an emerging technology with unique
+		      post-processing capabilities. For certain light field
+		      applications such as synthetic aperture photography,
+		      existing calibration procedures are either metric
+		      calibrations that are difficult to execute with low-cost
+		      hardware, or non-metric procedures that are inflexible to
+		      arbitrary sub-camera pose or require cameras with tightly
+		      controlled poses. We present a novel and comparatively
+		      simple non-metric procedure for light field acquisition
+		      that estimates the geometric transforms between camera
+		      images with respect to a calibration plane. The procedure
+		      is suitable for mobile camera arrays, and flexible to
+		      unknown or varied sub-camera pose. It only requires one
+		      image from each camera of a calibration pattern positioned
+		      to span the camera array's full field of view. We also
+		      provide a quantitative measure of calibration quality, and
+		      use it to demonstrate the procedure's efficacy with our
+		      Raspberry Pi camera array. The results highlight the
+		      procedure's robustness to variable camera orientation in
+		      contrast to existing state of the art techniques. Finally,
+		      we present qualitative results by rendering light fields
+		      at varying levels of focus and occlusion, and demonstrate
+		      success in capturing and rendering light field video.
                     </p>
                 </td>
             </tr>
@@ -54,7 +78,7 @@
                     <b>Figure:</b> Image from one of our cameras
                 </td>
                 <td align="center">
-                    <b>Figure:</b> Light field focused on office chair after planar calibration
+                    <b>Figure:</b> Rendered light field focussed on office chair after calibration
                 </td>
             </tr>
             <tr>
@@ -62,7 +86,11 @@
                     <p>
                         </br>
                         <b>Paper</b><br/>
-                        <a href="thesis/main.pdf">Honours thesis (PDF, 11.5 MB)</a>
+			<a href="paper/acra-small.pdf" target="_blank">ACRA 2017 Paper (PDF, 0.7 MB)</a>
+		    </p>
+		    <p>
+			<b>Presentation</b><br/>
+			<a href="paper/stewart2017using.pptx" target="_blank">ACRA 2017 Presentation (PPTX, 164 MB)</a>
                     </p>
                 </td>
             </tr>
@@ -71,13 +99,13 @@
                     <p>
                         </br>
                         <b>Videos</b><br/>
-                        <a href="data/Focus-Video-Hand.mp4">Light Field Still - Panning focus - 'Hand occluding office chair' scene (22.7 MB)</a><br/>
-                        <a href="data/Focus-Video-Person.mp4">Light Field Still - Panning focus - 'Person' scene (17.2 MB)</a><br/>
-                        <a href="data/LF-Video-Ducks.mp4">Light Field Video - 'Ducks' scene (21 MB)</a><br/>
-                        <a href="data/LF-Video-Outdoor-1.mp4">Light Field Video - 'Outdoor 1' scene (35.3 MB)</a><br/>
-                        <a href="data/LF-Video-Outdoor-Walking.mp4">Light Field Video - 'Outdoor 1 Person Walking' scene (32.4 MB)</a><br/>
-                        <a href="data/LF-Video-Outdoor-2.mp4">Light Field Video - 'Outdoor 2' scene (33.3 MB)</a><br/>
-                        <a href="data/LF-Video-Stopwatch.mp4">Light Field Video - 'Stopwatch' scene (3.6 MB)</a><br/>
+			<a href="data/Focus-Video-Hand-Uncalibrated.mp4" target="_blank">Light Field Still (UNCALIBRATED) - Panning Focus - 'Hand occluding office chair' scene (15.2 MB)</a><br/>
+                        <a href="data/Focus-Video-Hand.mp4" target="_blank">Light Field Still - Panning focus - 'Hand occluding office chair' scene (10.5 MB)</a><br/>
+                        <a href="data/Focus-Video-Person.mp4" target="_blank">Light Field Still - Panning focus - 'Person' scene (4.1 MB)</a><br/>
+                        <a href="data/LF-Video-Ducks.mp4" target="_blank">Light Field Video - 'Ducks' scene (6.4 MB)</a><br/>
+                        <a href="data/LF-Video-Outdoor-1.mp4" target="_blank">Light Field Video - 'Outdoor 1' scene (8.5 MB)</a><br/>
+                        <a href="data/LF-Video-Outdoor-Walking.mp4" target="_blank">Light Field Video - 'Outdoor 1 + person walking' scene (11.3 MB)</a><br/>
+                        <a href="data/LF-Video-Outdoor-2.mp4" target="_blank">Light Field Video - 'Outdoor 2' scene (7 MB)</a><br/>
                     </p>
                 </td>
             </tr>
@@ -86,23 +114,12 @@
                     <p>
                         </br>
                         <b>Image sets</b><br/>
-                        <a href="data/Originals-Painting.zip">Raw images - 'Painting' calibration set (57.8 MB)</a><br/>
-                        <a href="data/Rectified-Painting.zip">Rectified images - 'Painting' calibration set (8.97 MB)</a><br/><br/>
-                        <a href="data/Originals-Hand.zip">Raw images - 'Hand occluding office chair' scene (41.4 MB)</a><br/>
-                        <a href="data/Rectified-Hand.zip">Rectified images - 'Hand occluding office chair' scene (0.93 MB)</a><br/><br/>
-                        <a href="data/Originals-Person.zip">Raw images - 'Person' scene (44.1 MB)</a><br/>
-                        <a href="data/Rectified-Person.zip">Rectified images - 'Person' scene (0.83 MB)</a><br/>
-                    </p>
-                </td>
-            </tr>
-             <tr>
-                <td colspan="2" align="left">
-                    <p>
-                        </br>
-                        <b>MATLAB Light Fields (use with Dansereau's Light Field Toolbox)</b><br/>
-                        <a href="data/Light Field - Hand.mat">'Hand occluding office chair' scene (25.2 MB)</a><br/>
-                        <a href="data/Light Field - Painting.mat">'Painting' calibration set (13.3 MB)</a><br/>
-                        <a href="data/Light Field - Person.mat">'Person' scene (22.3 MB)</a><br/>
+                        <a href="data/Originals-Painting.zip" target="_blank">Raw images - 'Painting' calibration set (57.8 MB)</a><br/>
+                        <a href="data/Rectified-Painting.zip" target="_blank">Rectified images - 'Painting' calibration set (9 MB)</a><br/><br/>
+                        <a href="data/Originals-Hand.zip" target="_blank">Raw images - 'Hand occluding office chair' scene (41.4 MB)</a><br/>
+                        <a href="data/Rectified-Hand.zip" target="_blank">Rectified images - 'Hand occluding office chair' scene (0.9 MB)</a><br/><br/>
+                        <a href="data/Originals-Person.zip" target="_blank">Raw images - 'Person' scene (44.1 MB)</a><br/>
+                        <a href="data/Rectified-Person.zip" target="_blank">Rectified images - 'Person' scene (0.8 MB)</a><br/>
                     </p>
                 </td>
             </tr>
@@ -111,9 +128,9 @@
                     <p>
                         </br>
                         <b>MATLAB Implementations</b><br/>
-                        <a href="m/BuildTransformMatrixFromCalibrationImages.m">Calibration</a><br/>
-                        <a href="m/RectifyImagesViaTransforms.m">Rectification</a><br/>
-                        <a href="m/CalculateRectifiedSetAccuracy.m">Accuracy assessment</a><br/>
+                        <a href="m/BuildTransformMatrixFromCalibrationImages.m" target="_blank">Calibration and transform estimation</a><br/>
+                        <a href="m/RectifyImagesViaTransforms.m" target="_blank">Rectification and image warping</a><br/>
+                        <a href="m/CalculateRectifiedSetAccuracy.m" target="_blank">Accuracy assessment</a><br/>
                     </p>
                 </td>
             </tr>
